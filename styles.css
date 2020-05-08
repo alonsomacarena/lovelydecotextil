@@ -1,0 +1,1209 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*$fondo-especial: rgb(179,52,52);*/
+/*estilos idem todas las medidas*/
+/*inicio fondo*/
+body {
+  background-color: #fbf9f8;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative; }
+
+/*fin fondo*/
+.container {
+  max-width: 1200px; }
+
+/*inicio header-shipping*/
+.header-shipping {
+  background-color: #3c3c3c;
+  text-align: center;
+  margin: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header-shipping span {
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    text-decoration: none;
+    color: white; }
+  .header-shipping .cerrar {
+    position: absolute;
+    top: 0%;
+    cursor: pointer;
+    content: x;
+    color: white; }
+
+/*fin header-shipping*/
+/*inicio header-general*/
+.header {
+  width: 100%;
+  position: relative;
+  z-index: 199;
+  background-color: #fbf9f8; }
+  .header .navbar {
+    background-color: #fbf9f8;
+    width: 100%; }
+    .header .navbar img {
+      vertical-align: middle;
+      border-style: none;
+      text-align: left; }
+    .header .navbar .navbar-toggler {
+      color: #5d5b6a;
+      background-color: #cfb495;
+      border-style: none; }
+    .header .navbar .collapse {
+      background-color: #fbf9f8; }
+    .header .navbar .nav-item {
+      color: #cfb495;
+      text-decoration: none;
+      font-style: normal;
+      letter-spacing: 3px;
+      word-spacing: 1px;
+      text-align: left;
+      align-self: left; }
+    .header .navbar .dropdown-item {
+      color: #cfb495;
+      text-decoration: none;
+      font-style: normal;
+      letter-spacing: 3px;
+      word-spacing: 1px;
+      text-align: left;
+      align-self: left;
+      background-color: rgba(0, 0, 0, 0.85); }
+
+.nav-link:hover {
+  color: #5d5b6a;
+  text-decoration: none; }
+
+.dropdown-item:hover {
+  color: #5d5b6a;
+  text-decoration: none;
+  background-color: white; }
+
+/*fin header-general*/
+/*inicio imagen portada*/
+.site-content {
+  background-image: url(imagenes/portada2.jpg);
+  background-size: cover;
+  object-fit: cover; }
+  .site-content .site-title {
+    align-self: center; }
+  .site-content .site-desc {
+    align-self: center; }
+
+.site-title, .site-desc {
+  letter-spacing: 3px;
+  word-spacing: 1px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center; }
+
+.boton-imagen {
+  align-self: center; }
+  .boton-imagen a {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    background-color: #d63447;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    border-style: none;
+    text-decoration: none; }
+
+/*fin imagen portada*/
+/*inicio-h3(subtitulos) general*/
+.lovely, .elegidos, .elegidos2 {
+  font-family: "Gentium Basic";
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background-color: #3c3c3c; }
+
+/*fin- h3(subtitulos) general*/
+/*inicio- cards home*/
+.card-title {
+  font-family: "Gentium Basic";
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #3c3c3c;
+  position: relative; }
+
+.card-text {
+  font-style: normal;
+  color: black;
+  text-align: left; }
+
+.card a {
+  background-color: #d63447;
+  border-style: none; }
+
+/*fin- cards home*/
+/*inicio- concepto lovely*/
+.concepto-lovely {
+  color: black;
+  text-align: left;
+  font-weight: 400;
+  font-style: normal;
+  align-self: center; }
+  .concepto-lovely strong {
+    text-transform: uppercase;
+    color: #d63447; }
+  .concepto-lovely .ancla {
+    color: #cfb495; }
+
+.boton-historia {
+  align-self: center; }
+  .boton-historia a {
+    font-size: 18px;
+    padding: 7px 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    border-style: none;
+    background-color: #d63447; }
+
+/*fin - concepto lovely*/
+/*inicio icono flecha scroll up*/
+.flecha {
+  position: absolute; }
+
+i, a {
+  color: #cfb495;
+  align-self: center;
+  border-style: none; }
+
+.flecha i:hover {
+  color: #5d5b6a;
+  text-decoration: none;
+  font-weight: 600; }
+
+.flecha a:hover {
+  color: #5d5b6a;
+  text-decoration: none;
+  font-weight: 600; }
+
+/*inicio- footer*/
+footer {
+  background-color: #fbf9f8;
+  width: 100%; }
+  footer .redes {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center; }
+  footer i, footer a {
+    align-self: center; }
+  footer .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center; }
+    footer .footer h4 {
+      letter-spacing: 3px;
+      word-spacing: 2px;
+      text-align: left;
+      text-decoration: none;
+      color: black; }
+
+footer i:hover {
+  color: #5d5b6a;
+  text-decoration: none;
+  font-weight: 600; }
+
+footer a:hover {
+  color: #5d5b6a;
+  text-decoration: none;
+  font-weight: 600; }
+
+/*fin- footer*/
+/*inicio banner historia*/
+.banner-historia {
+  background-image: url(imagenes/banner-contacto.jpg);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%; }
+  .banner-historia .historia-banner {
+    font-family: "Gentium Basic";
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    align-self: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: center; }
+
+/*fin banner historia*/
+/*inicio-h2(subtitulos) general*/
+.historia {
+  font-family: "Gentium Basic";
+  letter-spacing: 3px;
+  word-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/*fin- h2(subtitulos) general*/
+/*inicio-container historia*/
+.container-historia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .container-historia .valijas {
+    object-fit: contain; }
+  .container-historia .concepto1 {
+    align-self: center; }
+    .container-historia .concepto1 .concepto-lovely {
+      color: black;
+      text-align: left;
+      font-style: normal; }
+    .container-historia .concepto1 .subtitulo-historia {
+      text-align: left;
+      font-style: normal; }
+
+.container-historia2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .container-historia2 .maquina {
+    object-fit: contain; }
+  .container-historia2 .concepto2 {
+    align-self: center; }
+    .container-historia2 .concepto2 .concepto-lovely2 {
+      color: black;
+      text-align: left;
+      font-style: normal; }
+      .container-historia2 .concepto2 .concepto-lovely2 strong {
+        text-transform: uppercase;
+        color: #d63447; }
+      .container-historia2 .concepto2 .concepto-lovely2 .ancla {
+        color: #cfb495; }
+    .container-historia2 .concepto2 .subtitulo-historia {
+      text-align: left;
+      font-style: normal; }
+
+/*fin-container historia*/
+/*inicio banner contacto*/
+.banner-contacto {
+  background-image: url(imagenes/banner-contacto.jpg);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%; }
+  .banner-contacto .contacto-banner {
+    font-family: "Gentium Basic";
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    align-self: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: center; }
+
+.contacto {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center; }
+  .contacto .textoContacto {
+    font-weight: 400;
+    text-align: center;
+    align-self: center; }
+
+/*contacto - form*/
+.form-row label {
+  text-decoration: none;
+  font-weight: 400; }
+.form-row .form-control {
+  background-color: rgba(207, 180, 149, 0.6);
+  color: black; }
+.form-row .custom-select {
+  background-color: rgba(207, 180, 149, 0.6);
+  color: black; }
+
+.form-group label {
+  text-decoration: none;
+  font-weight: 400; }
+.form-group textarea {
+  background-color: rgba(207, 180, 149, 0.6);
+  color: black; }
+
+.form-Boton {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+  border-style: none;
+  background-color: #d63447; }
+
+/*fin contacto*/
+/*inicio banner productos*/
+.banner-productos {
+  background-image: url(imagenes/banner-contacto.jpg);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%; }
+  .banner-productos .productos-banner {
+    font-family: "Gentium Basic";
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    align-self: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: center; }
+
+/*fin banner productos*/
+.img-responsive {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.box-hover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center; }
+
+.imagen-hover:hover .img-responsive {
+  opacity: 0.5; }
+
+.imagen-hover:hover .box-hover {
+  opacity: 1; }
+
+.text-hover {
+  background-color: #d63447;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 16px 16px; }
+
+.text-hover:hover {
+  color: white;
+  text-decoration: none; }
+
+/*estilos idem todas las medidas*/
+/*mobile first model*/
+/*mobile------------------------------------------------*/
+@media only screen and (max-width: 767px) {
+  /*inicio header-shipping*/
+  .header-shipping {
+    height: 35px;
+    padding: 20px 40px 5px 40px; }
+    .header-shipping span {
+      font-size: 10px; }
+    .header-shipping .cerrar {
+      right: 12px;
+      width: 18px;
+      height: 18px;
+      font-size: 20px; }
+
+  /*fin header-shipping*/
+  /*inicio header-general*/
+  .header .navbar {
+    height: 65px;
+    padding-top: 1px; }
+    .header .navbar img {
+      width: 110px;
+      height: 55px;
+      margin-left: 20px; }
+    .header .navbar .navbar-toggler {
+      margin-right: 10px;
+      height: 40px;
+      background-color: #d63447; }
+    .header .navbar .nav-link {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+      padding-left: 20px; }
+    .header .navbar .dropdown-item {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal; }
+
+  .nav-link:hover {
+    font-size: 18px;
+    font-weight: 600; }
+
+  .dropdown-item:hover {
+    font-size: 18px;
+    font-weight: 600; }
+
+  .form-inline {
+    display: none; }
+    .form-inline i {
+      display: none; }
+    .form-inline input {
+      display: none; }
+
+  /*fin header-general*/
+  /*inicio imagen portada*/
+  .site-title {
+    margin: 2% 10% 1% 10%;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold; }
+
+  .site-desc {
+    font-size: 15px;
+    margin: 10% 10% 1% 10%;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: bold; }
+
+  .boton-imagen {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-bottom: 5%; }
+
+  /*fin imagen portada*/
+  /*inicio-h3(subtitulos) general*/
+  .lovely, .elegidos, .lovely, .elegidos2 {
+    font-size: 1.08em;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 2%;
+    padding: 0.7%; }
+
+  /*fin- h3(subtitulos) general*/
+  /*inicio- cards home*/
+  .card-title {
+    font-size: 1.05em;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0.7%;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9); }
+
+  .card-text {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal; }
+
+  /*fin- cards home*/
+  aside .image {
+    display: none; }
+  aside span {
+    display: none; }
+
+  /*inicio- concepto lovely*/
+  .concepto-lovely {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal; }
+    .concepto-lovely .ancla {
+      font-size: 1em; }
+    .concepto-lovely strong {
+      font-size: 1em; }
+
+  .boton-historia {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 5%; }
+
+  /*fin - concepto lovely*/
+  /*inicio icono flecha scroll up*/
+  i, a {
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    color: #d63447; }
+
+  /*inicio- footer*/
+  footer {
+    height: 115px;
+    margin-top: 15%; }
+    footer .redes {
+      padding: 2px 15px; }
+    footer i, footer a {
+      padding-left: 10px;
+      padding-right: 10px; }
+    footer .footer {
+      padding: 10px 15px; }
+      footer .footer h4 {
+        font-size: 10px;
+        font-weight: 600;
+        font-style: normal; }
+
+  /*fin- footer*/
+  /*inicio banner historia*/
+  .banner-historia {
+    background-image: url(imagenes/banner-contacto.jpg);
+    background-size: cover;
+    object-fit: cover; }
+    .banner-historia .historia-banner {
+      font-family: "Gentium Basic";
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      align-self: center;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+      padding-top: 1%;
+      font-size: 30px;
+      font-weight: 700;
+      font-style: bold italic; }
+
+  /*inicio-h2(subtitulos) general*/
+  .historia {
+    font-size: 1.08em;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 2%;
+    padding: 0.7%;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+    background-color: black; }
+
+  /*fin- h2(subtitulos) general*/
+  /*inicio-container historia*/
+  .container-historia {
+    flex-flow: column wrap;
+    padding-top: 5px; }
+    .container-historia .valijas {
+      object-fit: contain;
+      width: 100%;
+      padding-left: 2%; }
+    .container-historia .concepto1 {
+      padding: 2% 10%; }
+      .container-historia .concepto1 .concepto-lovely {
+        font-size: 1em;
+        font-weight: 400; }
+        .container-historia .concepto1 .concepto-lovely .ancla {
+          font-size: 1em; }
+        .container-historia .concepto1 .concepto-lovely strong {
+          font-size: 1em; }
+      .container-historia .concepto1 .subtitulo-historia {
+        color: #d63447;
+        font-size: 28px;
+        font-weight: 400; }
+
+  .container-historia2 {
+    flex-flow: column wrap;
+    padding-top: 5px;
+    margin-bottom: 2%; }
+    .container-historia2 .maquina {
+      align-self: flex-start;
+      width: 100%;
+      padding-left: 2%;
+      order: -2; }
+    .container-historia2 .concepto2 {
+      padding: 2% 10%;
+      order: 1; }
+      .container-historia2 .concepto2 .concepto-lovely2 {
+        font-size: 1em;
+        font-weight: 400; }
+        .container-historia2 .concepto2 .concepto-lovely2 .ancla {
+          font-size: 1em; }
+        .container-historia2 .concepto2 .concepto-lovely2 strong {
+          font-size: 1em; }
+      .container-historia2 .concepto2 .subtitulo-historia {
+        color: #d63447;
+        font-size: 28px;
+        font-weight: 400; }
+
+  /*fin-container historia*/
+  /*inicio banner contacto*/
+  .banner-contacto {
+    background-image: url(imagenes/banner-contacto.jpg);
+    background-size: cover;
+    object-fit: cover; }
+    .banner-contacto .contacto-banner {
+      font-family: "Gentium Basic";
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      align-self: center;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+      font-size: 30px;
+      font-weight: 700;
+      font-style: bold italic; }
+
+  .contacto {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 4%; }
+    .contacto .textoContacto {
+      font-size: 15px;
+      padding-top: 1%; }
+
+  /*contacto - form*/
+  .form-row {
+    margin: 2% 8% 2% 8%; }
+    .form-row label {
+      padding-top: 1%;
+      color: black;
+      font-size: 15px; }
+
+  .form-group {
+    margin: 2% 8% 2% 8%; }
+    .form-group label {
+      padding-top: 1%;
+      color: black;
+      font-size: 15px; }
+
+  .form-Boton {
+    margin: 2% 8% 2% 8%; }
+
+  /*fin contacto*/
+  /*inicio banner productos*/
+  .banner-productos {
+    background-image: url(imagenes/banner-contacto.jpg);
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 4%; }
+    .banner-productos .productos-banner {
+      font-family: "Gentium Basic";
+      color: rgba(0, 0, 0, 0.8);
+      text-decoration: none;
+      align-self: center;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+      padding-top: 1%;
+      font-size: 30px;
+      font-weight: 700;
+      font-style: bold italic; }
+
+  /*fin-container productos*/
+  .img-responsive {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 4%; } }
+/*mobile------------------------------------------------*/
+/*tablet----------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*inicio header-shipping*/
+  .header-shipping {
+    height: 45px;
+    padding: 20px 40px 5px 40px; }
+    .header-shipping span {
+      font-size: 14px;
+      font-weight: 700; }
+    .header-shipping .cerrar {
+      top: 0%;
+      right: 12px;
+      width: 22px;
+      height: 22px;
+      font-size: 24px; }
+
+  /*fin header-shipping*/
+  /*inicio header-general*/
+  .header .navbar {
+    height: 110px;
+    padding-top: 1px; }
+    .header .navbar img {
+      width: 180px;
+      height: 95px;
+      margin-left: 30px; }
+    .header .navbar .navbar-toggler {
+      margin-right: 30px;
+      background-color: #d63447; }
+    .header .navbar .navbar-toggler-icon {
+      width: 40px;
+      height: 55px; }
+    .header .navbar .nav-link {
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      padding-left: 20px; }
+    .header .navbar .dropdown-item {
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal; }
+
+  .nav-link:hover {
+    font-size: 18px;
+    font-weight: 600; }
+
+  .dropdown-item:hover {
+    font-size: 18px;
+    font-weight: 600; }
+
+  .form-inline {
+    display: none; }
+    .form-inline i {
+      display: none; }
+    .form-inline input {
+      display: none; }
+
+  /*fin header-general*/
+  /*inicio imagen portada*/
+  .site-title {
+    margin: 4% 10% 1% 10%;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: bold; }
+
+  .site-desc {
+    font-size: 25px;
+    margin: 12% 10% 1% 10%;
+    font-weight: 400;
+    font-style: bold; }
+
+  .boton-imagen {
+    margin-top: 8%;
+    margin-bottom: 15%;
+    padding-bottom: 5%; }
+
+  /*fin imagen portada*/
+  /*inicio-h3(subtitulos) general*/
+  .lovely, .elegidos, .lovely, .elegidos2 {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 4%;
+    padding: 1.5%; }
+
+  /*fin- h3(subtitulos) general*/
+  /*inicio- cards home*/
+  .card-title {
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;
+    padding: 1.5%; }
+
+  .card-text {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal; }
+
+  .tarjetones {
+    margin-top: 20px; }
+
+  /*fin- cards home*/
+  aside .image {
+    display: none; }
+  aside span {
+    display: none; }
+
+  /*inicio- concepto lovely*/
+  .concepto {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; }
+
+  .concepto-lovely {
+    font-size: 1em;
+    align-self: center;
+    margin-top: 3%; }
+    .concepto-lovely .ancla {
+      font-size: 1em; }
+    .concepto-lovely strong {
+      font-size: 1em; }
+
+  .boton-historia {
+    align-self: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding-bottom: 5%; }
+
+  /*fin - concepto lovely*/
+  /*inicio icono flecha scroll up*/
+  i, a {
+    font-size: 45px;
+    font-weight: 400;
+    font-style: normal;
+    color: #d63447; }
+
+  /*inicio- footer*/
+  footer {
+    height: 140px;
+    margin-top: 15%; }
+    footer .redes {
+      padding: 4px 18px; }
+    footer i, footer a {
+      padding-left: 12px;
+      padding-right: 12px;
+      color: #d63447; }
+    footer .footer {
+      padding: 12px 17px; }
+      footer .footer h4 {
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal; }
+
+  /*fin- footer*/
+  /*inicio-h2(subtitulos) general*/
+  .historia {
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 4%;
+    padding: 1.5%; }
+
+  /*fin- h2(subtitulos) general*/
+  /*inicio banner historia*/
+  .banner-historia .historia-banner {
+    font-size: 45px;
+    padding-top: 2%; }
+
+  /*fin banner historia*/
+  /*inicio-container historia*/
+  .container-historia {
+    flex-flow: column wrap;
+    padding-top: 5px; }
+    .container-historia .valijas {
+      object-fit: contain;
+      width: 100%;
+      padding-left: 2%; }
+    .container-historia .concepto1 {
+      padding: 2% 8%; }
+      .container-historia .concepto1 .concepto-lovely {
+        font-size: 1em;
+        font-weight: 400; }
+        .container-historia .concepto1 .concepto-lovely .ancla {
+          font-size: 1em; }
+        .container-historia .concepto1 .concepto-lovely strong {
+          font-size: 1em; }
+      .container-historia .concepto1 .subtitulo-historia {
+        color: #d63447;
+        font-size: 28px;
+        font-weight: 400; }
+
+  .container-historia2 {
+    flex-flow: column wrap;
+    padding-top: 5px;
+    margin-bottom: 2%; }
+    .container-historia2 .maquina {
+      align-self: flex-start;
+      width: 100%;
+      padding-left: 2%;
+      order: -2; }
+    .container-historia2 .concepto2 {
+      padding: 2% 8%;
+      order: 1; }
+      .container-historia2 .concepto2 .concepto-lovely2 {
+        font-size: 1em;
+        font-weight: 400; }
+        .container-historia2 .concepto2 .concepto-lovely2 .ancla {
+          font-size: 1em; }
+        .container-historia2 .concepto2 .concepto-lovely2 strong {
+          font-size: 1em; }
+      .container-historia2 .concepto2 .subtitulo-historia {
+        color: #d63447;
+        font-size: 28px;
+        font-weight: 400; }
+
+  /*fin-container historia*/
+  /*inicio banner contacto*/
+  .banner-contacto .contacto-banner {
+    font-size: 45px;
+    padding-top: 2%; }
+
+  .contacto {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 4%; }
+    .contacto .textoContacto {
+      font-size: 1em;
+      padding-top: 1%; }
+
+  /*contacto - form*/
+  .form-row {
+    margin: 2% 4% 2% 4%; }
+    .form-row label {
+      padding-top: 1%;
+      color: black;
+      font-size: 1em; }
+
+  .form-group {
+    margin: 2% 4% 2% 4%; }
+    .form-group label {
+      padding-top: 1%;
+      color: black;
+      font-size: 1em; }
+
+  .form-Boton {
+    margin: 2% 4% 2% 4%; }
+
+  /*fin contacto*/
+  /*inicio banner productos*/
+  .banner-productos .productos-banner {
+    font-size: 45px;
+    padding-top: 2%; }
+
+  /*fin banner productos*/
+  /*fin-container productos*/
+  .gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center; }
+
+  .img-responsive {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 4%; } }
+/*tablet------------------------------------------------*/
+/*web----------------------------------------------------------*/
+@media (min-width: 1024px) and (max-width: 1600px) {
+  /*inicio header-shipping*/
+  .header-shipping {
+    height: 30px;
+    padding: 2% 0.7% 0.8% 0.7%; }
+    .header-shipping span {
+      font-size: 15px; }
+    .header-shipping .cerrar {
+      right: 6%;
+      width: 35px;
+      height: 35px;
+      font-size: 20px; }
+
+  /*fin header-shipping*/
+  /*inicio header-general*/
+  .header .navbar {
+    height: 110px;
+    padding-left: 6%; }
+    .header .navbar img {
+      width: 190px;
+      height: 105px; }
+    .header .navbar .nav-link {
+      font-size: 20px;
+      padding-right: 20px;
+      color: #cfb495;
+      font-weight: 700; }
+    .header .navbar .dropdown-item {
+      font-size: 20px; }
+
+  .nav-link:hover {
+    font-size: 20px;
+    font-weight: 700; }
+
+  .dropdown-item:hover {
+    font-size: 20px;
+    font-weight: 700; }
+
+  form i {
+    font-size: 20px;
+    color: #cfb495; }
+
+  /*fin header-general*/
+  /*inicio imagen portada*/
+  .site-title {
+    margin: 8% 0% 1% 0%;
+    font-size: 80px;
+    font-weight: 700;
+    padding-top: 6%; }
+
+  .site-desc {
+    font-size: 40px;
+    margin: 14% 0% 1% 0%;
+    padding-top: 10%; }
+
+  .boton-imagen {
+    margin-top: 10%;
+    margin-bottom: 18%;
+    padding-top: 3%;
+    padding-bottom: 5%; }
+
+  /*fin imagen portada*/
+  /*inicio-h3(subtitulos) general*/
+  .lovely, .elegidos, .lovely, .elegidos2 {
+    font-size: 20px;
+    margin-top: 1.8%;
+    padding: 0.8%; }
+
+  /*fin- h3(subtitulos) general*/
+  /*inicio- cards home*/
+  .tarjetones {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  .card-title {
+    font-size: 1em;
+    font-weight: 700;
+    font-style: italic;
+    padding: 1.5%; }
+
+  .card-text {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal; }
+
+  /*fin- cards home*/
+  /*aside banner web*/
+  .lateral {
+    margin-top: 15px; }
+    .lateral .image {
+      position: relative; }
+      .lateral .image strong {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        right: 20%; }
+        .lateral .image strong span {
+          font-family: "Gentium Basic";
+          color: rgba(0, 0, 0, 0.8);
+          text-decoration: none;
+          font-size: 30px;
+          font-weight: 700;
+          font-style: bold italic;
+          letter-spacing: 3px;
+          word-spacing: 5px;
+          text-align: center;
+          align-self: center; }
+          .lateral .image strong span .spacer {
+            align-self: center;
+            text-align: right; }
+
+  /*inicio- concepto lovely*/
+  .concepto {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; }
+
+  .concepto-lovely {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 1.5%;
+    font-size: 1.3em; }
+    .concepto-lovely .ancla {
+      font-size: 1.1em; }
+    .concepto-lovely strong {
+      font-size: 1.1em; }
+
+  .boton-historia {
+    align-self: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 4%; }
+
+  /*fin - concepto lovely*/
+  /*inicio icono flecha scroll up*/
+  .flecha {
+    display: none; }
+    .flecha i a {
+      display: none; }
+
+  /*inicio- footer*/
+  footer {
+    height: 115px;
+    margin-top: 30px; }
+    footer .redes {
+      padding: 8px 18px; }
+    footer i, footer a {
+      font-size: 35px;
+      padding-left: 50px;
+      padding-right: 50px;
+      color: #cfb495;
+      font-weight: 700; }
+    footer .footer {
+      padding: 20px 17px 12px 17px; }
+      footer .footer h4 {
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal; }
+
+  /*fin- footer*/
+  /*inicio banner historia*/
+  .banner-historia .historia-banner {
+    font-size: 60px;
+    padding-top: 1.5%; }
+
+  /*inicio-container historia*/
+  .container-historia {
+    flex-flow: row nowrap;
+    padding-top: 5px;
+    margin-bottom: 0%; }
+    .container-historia .valijas {
+      align-self: center;
+      width: 80%;
+      padding-left: 3%; }
+    .container-historia .concepto1 {
+      padding: 2% 4%; }
+      .container-historia .concepto1 .concepto-lovely {
+        padding-left: 0%;
+        font-size: 1.2em; }
+        .container-historia .concepto1 .concepto-lovely .ancla {
+          font-size: 1em; }
+        .container-historia .concepto1 .concepto-lovely strong {
+          font-size: 1em; }
+      .container-historia .concepto1 .subtitulo-historia {
+        color: #d63447;
+        font-size: 28px;
+        font-weight: 400; }
+
+  .container-historia2 {
+    flex-flow: row nowrap;
+    padding-top: 5px;
+    margin-bottom: 2%; }
+    .container-historia2 .maquina {
+      align-self: flex-start;
+      width: 100%;
+      padding-right: 3%;
+      padding-top: 2%; }
+    .container-historia2 .concepto2 {
+      padding: 4% 4% 2% 4%; }
+      .container-historia2 .concepto2 .concepto-lovely2 {
+        font-size: 1.2em; }
+        .container-historia2 .concepto2 .concepto-lovely2 .ancla {
+          font-size: 1em; }
+        .container-historia2 .concepto2 .concepto-lovely2 strong {
+          font-size: 1em; }
+      .container-historia2 .concepto2 .subtitulo-historia {
+        color: #d63447;
+        font-size: 28px;
+        font-weight: 400; }
+
+  /*fin-container historia*/
+  /*inicio-h2(subtitulos) general*/
+  .historia {
+    font-size: 20px;
+    margin-top: 1.8%;
+    padding: 0.8%; }
+
+  /*fin- h2(subtitulos) general*/
+  /*inicio banner contacto*/
+  .banner-contacto .contacto-banner {
+    font-size: 60px;
+    padding-top: 1.5%; }
+
+  .contacto {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 4%; }
+    .contacto .textoContacto {
+      font-size: 1em;
+      padding-top: 1%; }
+
+  /*contacto - form*/
+  .form-row {
+    margin: 2% 6% 2% 6%; }
+    .form-row label {
+      padding-top: 1%;
+      color: black;
+      font-size: 1em;
+      font-weight: 400; }
+
+  .form-group {
+    margin: 2% 6% 2% 6%; }
+    .form-group label {
+      padding-top: 1%;
+      color: black;
+      font-size: 1em; }
+
+  .form-Boton {
+    margin: 2% 6% 2% 6%; }
+
+  /*inicio banner productos*/
+  .banner-productos .productos-banner {
+    font-size: 60px;
+    padding-top: 1.5%; }
+
+  .gallery {
+    padding: 2%; }
+
+  .img-responsive {
+    margin-top: 20px; } }
+/*web------------------------------------------------*/
